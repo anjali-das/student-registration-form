@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Chivo+Mono:ital,wght@1,200&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Great+Vibes&family=Italianno&family=Open+Sans:wght@300&family=Overpass:wght@100&family=Pacifico&family=Rubik+Gemstones&family=Satisfy&family=Sevillana&family=Seymour+One&family=Tilt+Prism&family=Ubuntu&family=Yeon+Sung&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+
+}

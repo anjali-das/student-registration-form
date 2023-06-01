@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="text-center mt-5 text-danger">
+        <h2>Registered Students Details</h2>
+    </div>
+    
+    
+<table class="table table-striped border mt-5">
+        <thead class="text-center">
+         
+            <tr class="thead">
+             
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Address</th>
+              <th>Email</th>
+              <th>Mobile</th>
+              <th>Gender</th>
+              <th>DOB</th>
+              <th>Group</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="text-center" *ngFor="let student of table">
+                <td>{{student.firstname}}</td>
+                <td>{{student.lastname}}</td>
+                <td>{{student.address}}</td>
+                <td>{{student.email}}</td>
+                <td>{{student.mobile}}</td>
+                <td>{{student.gender}}</td>
+                <td>{{student.dob}}</td>
+                <td>{{student.group}}</td>
+            </tr>
+          </tbody>
+      </table>
+      <button (click)="home()" class="btn btn-success mt-3 " style="margin-left: 550px;">Back to Home</button>
+</div>
